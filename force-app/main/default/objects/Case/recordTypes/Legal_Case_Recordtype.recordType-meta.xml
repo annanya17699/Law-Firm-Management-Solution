@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Case_Recordtype</fullName>
+    <active>true</active>
+    <businessProcess>Legal Cases</businessProcess>
+    <description>Legal Case Recordtype</description>
+    <label>Legal Case Recordtype</label>
+    <picklistValues>
+        <picklist>Court__c</picklist>
+        <values>
+            <fullName>District Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subordinate Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supreme Court of India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tribunals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>GC1020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5060</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Legal Case</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLAViolation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Assault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Law Cases%3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constitutional Cases%3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate fraud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug offenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Income tax disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual property disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Murder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Interest Litigation %28PIL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shareholder disputes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tort claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winding up of companies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
